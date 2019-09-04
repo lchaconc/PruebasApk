@@ -1,18 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<widget id="com.gespro.varbs_fair_english" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.logan.prueba_apk" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
 
-<name>Verbs Fair</name>
+<name>
+	Prueba Apk
+</name>
 
 <description>
 
-	Practice Audios and verbs
+	prueba 1
 
 </description>
 
 <author email="luis.chacon.campos@mep.go.cr" href="http://mep.go.cr">
 
-	GESPRO MEP
+	Logan
 
 </author>
     <content src="index.html" />
