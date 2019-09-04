@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script >
+var str = window.location.href,
+    url = new URL(str);
+    //console.log(url);   
+        const idUsuario = url.searchParams.get("idUsuario");
+        sessionStorage.setItem("idUsuario", idUsuario );        
+        console.log("idUsuario ", sessionStorage.getItem("idUsuario"));
+
+            setTimeout(() => {
+                window.location.assign("./menu/"); 
+            }, 1000);
+
+
+        
+
+    </script>
+</head>
+<body>
+    <h1>Preload</h1>
+</body>
+</html>
